@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <g opacity="0.14" stroke="#94a3b8" stroke-width="2">
+    <line x1="96" y1="128" x2="416" y2="128"/>
+    <line x1="96" y1="192" x2="416" y2="192"/>
+    <line x1="96" y1="256" x2="416" y2="256"/>
+    <line x1="96" y1="320" x2="416" y2="320"/>
+    <line x1="96" y1="384" x2="416" y2="384"/>
+    <line x1="128" y1="96" x2="128" y2="416"/>
+    <line x1="192" y1="96" x2="192" y2="416"/>
+    <line x1="256" y1="96" x2="256" y2="416"/>
+    <line x1="320" y1="96" x2="320" y2="416"/>
+    <line x1="384" y1="96" x2="384" y2="416"/>
+  </g>
+  <!-- Coordinate axes -->
+  <path d="M96 368 H416 M144 96 V416" stroke="#475569" stroke-width="6" stroke-linecap="round"/>
+  <!-- Shaded integral area under curve -->
+  <path d="M180 368 L180 280 C235 280 275 170 364 148 L364 368 Z" fill="url(#accent)" opacity="0.28"/>
+  <!-- Curve -->
+  <path d="M148 310 C220 310 260 176 384 144" fill="none" stroke="#38bdf8" stroke-width="14" stroke-linecap="round"/>
+  <!-- Integral glyph -->
+  <path d="M294 128 C274 128 264 144 260 176 L240 336 C236 368 226 384 206 384" fill="none" stroke="#f8fafc" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="298" cy="128" r="14" fill="#f8fafc"/>
+  <circle cx="202" cy="384" r="14" fill="#f8fafc"/>
+  <!-- M3 badge text -->
+  <text x="342" y="344" font-family="Georgia, serif" font-weight="700" font-size="78" fill="#f59e0b" text-anchor="middle">M3</text>
+</svg>

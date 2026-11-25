@@ -1,0 +1,6 @@
+{
+  "name": "Math 3 Question Bank",
+  "description": "Interactive Engineering Mathematics 3 multiple-choice question bank with step-by-step derivations, cropped lecture diagrams, timer, score tracking, and offline PWA support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
