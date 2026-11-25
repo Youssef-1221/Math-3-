@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math 3 Question Bank</title>
+    <meta name="description" content="Interactive Engineering Mathematics 3 multiple-choice question bank with step-by-step derivations, cropped lecture diagrams, timer, score tracking, and offline PWA support." />
+    <meta property="og:title" content="Math 3 Question Bank" />
+    <meta property="og:description" content="Interactive Engineering Mathematics 3 multiple-choice question bank with step-by-step derivations, cropped lecture diagrams, timer, score tracking, and offline PWA support." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Math 3 Quiz" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-BJhW6z96.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CP4kifou.css">
+  <link rel="manifest" href="./manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="./registerSW.js"></script></head>
+  <body>
+    <div id="root"></div>
+    <script>
+      (function () {
+        var isViteDev = Boolean(document.querySelector('script[src*="@vite/client"]'));
+        var hasRawTsxEntry = Boolean(document.querySelector('script[src="/src/main.tsx"]'));
+        if (!isViteDev && hasRawTsxEntry) {
+          if (window.location.protocol === 'file:') {
+            document.getElementById('root').innerHTML =
+              '<div style="font-family:system-ui,sans-serif;max-width:540px;margin:48px auto;padding:24px;border:1px solid #cbd5e1;border-radius:12px;">' +
+              '<h1 style="margin:0 0 8px;font-size:20px;">Math 3 Question Bank</h1>' +
+              '<p style="margin:0;color:#475569;line-height:1.5;">Browsers block ES modules over <code>file://</code>. Serve via GitHub Pages (which redirects automatically to <code>./docs/</code>) or run <code>npm run preview</code> locally.</p>' +
+              '</div>';
+          } else {
+            window.location.replace('./docs/');
+          }
+        }
+      })();
+    </script>
+    <noscript>Please enable JavaScript to use the Math 3 Question Bank.</noscript>
+  </body>
+</html>
+
