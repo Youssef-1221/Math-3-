@@ -90,7 +90,7 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": "ed3e37868599cf4038f504fc95ebb2ef"
   }, {
     "url": "index.html",
-    "revision": "1b54bc39ffad79d3fb83286df69af265"
+    "revision": "b7eb7a5426669c7cea0a9b5367864595"
   }, {
     "url": "icon.svg",
     "revision": "729b49c5242510062bcb7b298ad2197f"
@@ -128,10 +128,10 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "url": "diagrams/arc_ln_cosx.png",
     "revision": "fab77ca70067a474c7f4e35899777964"
   }, {
-    "url": "assets/index-CP4kifou.css",
+    "url": "assets/index-lTnkofSn.css",
     "revision": null
   }, {
-    "url": "assets/index-BJhW6z96.js",
+    "url": "assets/index-RVS01qbA.js",
     "revision": null
   }, {
     "url": "assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2",
@@ -249,6 +249,9 @@ define(['./workbox-7e5eb42b'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "assets/KaTeX_AMS-Regular-BQhdFMY1.woff2",
+    "revision": null
+  }, {
+    "url": "assets/aistudio/Screenshot_2026-11-25_174145_89ef90bb.png",
     "revision": null
   }, {
     "url": "apple-touch-icon.png",
